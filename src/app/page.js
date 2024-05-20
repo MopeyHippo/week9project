@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
@@ -8,8 +9,8 @@ export default function Home() {
   return (
     <main>
       <div>
-        <Header />
-        <div className="min-h-screen flex items-center justify-center bg-white text-black">
+      
+        <div className="min-h-screen flex items-center justify-center">
             <div className="text-center">
                 <h1 className="text-4xl font-bold mb-4">Welcome to Y</h1>
                 <p className="text-lg mb-2">The Social Media site that asks the important questions</p>
@@ -19,7 +20,7 @@ export default function Home() {
                 <h2 className="text-2xl font-bold mt-4">Most importantly Y?</h2>
             </div>
         </div>
-        <Footer />
+       
       </div>
     </main>
   );
